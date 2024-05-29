@@ -9,7 +9,6 @@ class Program
         {
             new Menu()
                 .GetQuestao();
-            Console.WriteLine("\n quer continuar? (sim ou não)");
             continuar = Console.ReadLine() == "sim";
             Console.Clear();
         }
